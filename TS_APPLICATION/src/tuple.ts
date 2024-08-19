@@ -11,7 +11,6 @@ console.log(showDetails(detailArr))
 
 
 
-
 type PersonDetailsWithCityOptional = [string , number , string?]
 
 function cityOptional(person:PersonDetailsWithCityOptional ): string {
