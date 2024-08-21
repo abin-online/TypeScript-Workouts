@@ -37,6 +37,7 @@ function getSearchProducts<T>(products: T[]): T {
 
 
 // generics function 
+
 function largestNumber<T,>(arrays: T[]): T{
     let max = arrays.reduce((acc,curr)=>{
         if(acc > curr){
@@ -49,5 +50,3 @@ function largestNumber<T,>(arrays: T[]): T{
 }
 
 console.log(largestNumber([4,6,4,3,5,7,]));
-
-
