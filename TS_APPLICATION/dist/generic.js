@@ -10,3 +10,6 @@ class Dictionary {
         this.value = value;
     }
 }
+function generic(arg) {
+    return arg;
+}
